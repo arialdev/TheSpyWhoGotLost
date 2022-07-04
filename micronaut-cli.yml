@@ -3,4 +3,4 @@ defaultPackage: dev.arial
 testFramework: junit
 sourceLanguage: java
 buildTool: maven
-features: [annotation-api, app-name, h2, hibernate-jpa, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, logback, maven, netty-server, openapi, readme, shade, views-thymeleaf, yaml]
+features: [annotation-api, app-name, data, data-jpa, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, logback, lombok, maven, mysql, netty-server, openapi, readme, shade, testcontainers, views-thymeleaf, yaml]

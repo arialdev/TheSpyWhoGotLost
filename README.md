@@ -6,16 +6,11 @@
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 ---
 
-## Feature openapi documentation
+## Feature lombok documentation
 
-- [Micronaut OpenAPI Support documentation](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/index.html)
+- [Micronaut Project Lombok documentation](https://docs.micronaut.io/latest/guide/index.html#lombok)
 
-- [https://www.openapis.org](https://www.openapis.org)
-
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+- [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
 
 ## Feature views-thymeleaf documentation
@@ -25,13 +20,25 @@
 - [https://www.thymeleaf.org/](https://www.thymeleaf.org/)
 
 
-## Feature hibernate-jpa documentation
+## Feature http-client documentation
 
-- [Micronaut Hibernate JPA documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#hibernate)
+- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+
+
+## Feature testcontainers documentation
+
+- [https://www.testcontainers.org/](https://www.testcontainers.org/)
 
 
 ## Feature jdbc-hikari documentation
 
 - [Micronaut Hikari JDBC Connection Pool documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbc)
+
+
+## Feature openapi documentation
+
+- [Micronaut OpenAPI Support documentation](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/index.html)
+
+- [https://www.openapis.org](https://www.openapis.org)
 
 
