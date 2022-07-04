@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Play Spyfall!</title>
+    <link rel="stylesheet" href="../public/styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-Hola mundo!
+<h1 class="title"><a href="/" class="invisible-link">Spyfall</a></h1>
+<section class="manage-rooms">
+    <div class="find-room">
+        <label for="room-search">FIND ROOM</label>
+        <form class="search-bar">
+            <input id="room-search"/>
+            <button type="submit" class="search-button">
+                <img src="../public/icons/search.svg" alt="search-icon"/>
+            </button>
+        </form>
+    </div>
+    <p>OR</p>
+    <a class="create-room invisible-link" id="create-room" href="room/create">CREATE ROOM</a>
+    <p th:if="${status==1}">No rooms available</p>
+</section>
 </body>
 </html>

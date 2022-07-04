@@ -1,6 +1,12 @@
 micronaut:
   application:
     name: spyfall
+  router:
+    static-resources:
+      default:
+        enabled: true
+        mapping: "/public/**"
+        paths: "classpath:public"
 datasources:
   default:
     url: jdbc:mysql://localhost:3306/spyfall
@@ -19,5 +25,5 @@ jpa:
     properties:
       hibernate:
         hbm2ddl:
-          auto: update
+          auto: create-drop
         show_sql: true

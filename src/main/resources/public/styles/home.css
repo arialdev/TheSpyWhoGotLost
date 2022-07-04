@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+.find-room {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    row-gap: 1rem;
+    font-size: 2rem;
+}
+
+.search-bar {
+    display: inline-flex;
+    height: 2em;
+}
+
+.search-button {
+    background-color: white;
+    border: none;
+}
+
+.search-button:hover {
+    transform: scale(1.1);
+}
+
+.search-button img {
+    height: 30px;
+}
+
+.find-room label {
+    font-weight: bold;
+}
+
+.find-room input {
+    width: clamp(2em, 20em, 80vw);
+    border: 2px solid black;
+}
+
+.search-bar {
+    background: white;
+    position: relative;
+    width: 300px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 20px 60px 20px 20px;
+    display: block;
+    font-size: 1em;
+}
+
+.search-bar button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px;
+    z-index: 2;
+}
+
+.create-room {
+    background: #00ffd0;
+    border: 2px solid black;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+.invisible-link {
+    text-decoration: none;
+    color: black;
+}
